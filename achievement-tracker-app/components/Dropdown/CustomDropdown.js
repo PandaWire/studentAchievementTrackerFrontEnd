@@ -9,7 +9,7 @@ export default function CustomDropdown({
   fieldFour
 }) {
   return (
-    <div style={{ width: '256px' }}>
+    <div className="flex flex-col items-center">
         <Dropdown label={buttonName}>
           <Dropdown.Item>
             {fieldOne}
